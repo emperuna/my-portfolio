@@ -17,7 +17,7 @@ const Projects = () => {
       description: "A modern, responsive portfolio website built with React and Tailwind CSS showcasing my projects and skills in web development.",
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       image: "/assets/images/portfolio-website.png",
-      github: "#",
+      github: "https://github.com/emperuna/my-portfolio",
       live: "#"
     }
   ]
