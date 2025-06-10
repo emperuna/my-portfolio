@@ -9,7 +9,7 @@ const Projects = () => {
       technologies: ["Flutter", "Dart", "Firebase"],
       image: "/assets/images/haul-app.png",
       github: "https://github.com/fyodorrrrr/haul-app",
-      live: "#"
+      live: "https://drive.google.com/file/d/1cQ-T6f2KTzzrUeprLFO1KI5dZDEEJiw2/view"
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const Projects = () => {
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       image: "/assets/images/portfolio-website.png",
       github: "https://github.com/emperuna/my-portfolio",
-      live: "#"
+      live: "https://jeremygarin.works"
     }
   ]
 
