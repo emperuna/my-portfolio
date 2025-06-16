@@ -59,7 +59,7 @@ const About = () => {
             <div className="mt-8">
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="/assets/documents/resume.pdf"
+                  href="/assets/documents/Jeremy-Garin-Resume.pdf"
                   download="Jeremy-Garin-Resume.pdf"
                   className="group px-6 py-3 bg-gradient-to-r from-steel-blue-500 to-steel-blue-600 text-anti-flash-100 font-medium rounded-full transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-steel-blue-500/25 flex items-center gap-2 border border-steel-blue-400/30 font-sans"
                 >
