@@ -74,7 +74,7 @@ const Contact = () => {
         </svg>
       ),
       href: "https://www.linkedin.com/in/jeremy-garin-b9299036a/",
-      color: "reseda-green"
+      color: "steel-blue"
     },
     {
       name: "Email",
