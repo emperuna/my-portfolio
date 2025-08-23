@@ -23,7 +23,7 @@ const Activities = () => {
   ]
 
   return (
-    <section id="activities" className="section relative overflow-hidden">
+    <section id="activities" className="section relative overflow-hidden py-12 sm:py-16 md:py-20">
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-10 w-32 h-32 bg-steel-blue-400 rounded-full blur-3xl animate-pulse delay-300"></div>
         <div className="absolute bottom-20 right-10 w-40 h-40 bg-reseda-green-400 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -38,28 +38,28 @@ const Activities = () => {
       </div>
 
       <div className="container-custom relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-anti-flash-100 mb-8 tracking-tight font-sans">
+        <div className="text-center mb-8 md:mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-anti-flash-100 mb-4 md:mb-8 tracking-tight font-sans">
             Current{' '}
             <span className="bg-gradient-to-r from-steel-blue-400 via-steel-blue-300 to-reseda-green-400 bg-clip-text text-transparent">
               Studies
             </span>
           </h2>
-          <p className="text-lg md:text-xl text-anti-flash-200 leading-relaxed font-light max-w-3xl mx-auto font-sans">
+          <p className="text-base md:text-lg lg:text-xl text-anti-flash-200 leading-relaxed font-light max-w-3xl mx-auto font-sans">
             Here's what I'm currently learning this semester at Laguna State Polytechnic University.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
           {currentCourses.map((course, index) => (
             <div key={index} className="animate-slide-up" style={{ animationDelay: `${index * 200}ms` }}>
-              <div className="bg-gradient-to-br from-space-cadet-600/80 via-space-cadet-700/60 to-space-cadet-800/80 rounded-3xl p-8 shadow-2xl border border-space-cadet-500/30 backdrop-blur-sm hover:scale-105 transition-all duration-300 hover:shadow-xl h-full group">
+              <div className="bg-gradient-to-br from-space-cadet-600/80 via-space-cadet-700/60 to-space-cadet-800/80 rounded-3xl p-6 md:p-8 shadow-2xl border border-space-cadet-500/30 backdrop-blur-sm hover:scale-105 transition-all duration-300 hover:shadow-xl min-h-[420px] sm:min-h-[380px] lg:h-full group">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-anti-flash-100 mb-3 font-sans group-hover:text-steel-blue-300 transition-colors duration-200">
+                    <h3 className="text-xl md:text-2xl font-bold text-anti-flash-100 mb-3 font-sans group-hover:text-steel-blue-300 transition-colors duration-200">
                       {course.title}
                     </h3>
-                    <div className="flex items-center gap-2 mb-4">
+                    <div className="flex flex-wrap items-center gap-2 mb-4">
                       <span className="text-sm font-mono text-steel-blue-300 bg-steel-blue-400/20 px-3 py-1 rounded-full border border-steel-blue-400/30">
                         {course.code}
                       </span>
@@ -70,11 +70,11 @@ const Activities = () => {
                   </div>
                 </div>
                 
-                <p className="text-anti-flash-300 leading-relaxed mb-6 font-sans font-light">
+                <p className="text-sm md:text-base text-anti-flash-300 leading-relaxed mb-4 md:mb-6 font-sans font-light">
                   {course.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex flex-wrap gap-2 mb-4 md:mb-6">
                   {course.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}

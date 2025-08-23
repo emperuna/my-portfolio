@@ -16,14 +16,15 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'projects', 'skills', 'contact']
-      const scrollPosition = window.scrollY + 100
+      const sections = ['hero', 'about', 'activities', 'projects', 'skills', 'contact']
+      const scrollPosition = window.scrollY + 200
 
-      for (const section of sections) {
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = sections[i]
         const element = document.getElementById(section)
         if (element) {
-          const { offsetTop, offsetHeight } = element
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+          const { offsetTop } = element
+          if (scrollPosition >= offsetTop) {
             setActiveSection(section)
             break
           }
@@ -32,6 +33,7 @@ const Header = () => {
     }
 
     window.addEventListener('scroll', handleScroll)
+    handleScroll()
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
@@ -45,6 +47,7 @@ const Header = () => {
 
   const navItems = [
     { id: 'about', label: 'About' },
+    { id: 'activities', label: 'Studies' },
     { id: 'projects', label: 'Projects' },
     { id: 'skills', label: 'Skills' },
   ]
