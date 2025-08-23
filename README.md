@@ -1,67 +1,102 @@
-# Modern Portfolio Website
+# Jeremy Garin's Portfolio 🚀
 
-A beautiful, responsive portfolio website built with React, Vite, and Tailwind CSS v4.
+Welcome to my personal portfolio website! I'm Jeremy, a Computer Science student at Laguna State Polytechnic University with a passion for creating beautiful, functional applications that solve real-world problems.
 
-## ✨ Features
+## 👨‍💻 About This Project
 
-- **Modern Design System**: Complete CSS preset system with consistent typography, colors, and components
-- **Responsive Layout**: Mobile-first design that looks great on all devices
-- **Interactive Components**: Smooth animations and hover effects throughout
-- **Optimized Performance**: Built with Vite for fast development and optimized builds
-- **Accessibility**: Focus states, proper semantic HTML, and keyboard navigation
-- **Smooth Scrolling**: Enhanced user experience with smooth section transitions
+This portfolio represents my journey as a developer and showcases the projects I'm most proud of. Built with modern technologies, it reflects my commitment to clean code, thoughtful design, and continuous learning.
 
-## 🛠️ Tech Stack
+**What makes this special:**
+- 🎨 **Design Excellence** - Every design decision reflects my attention to detail and user experience principles
+- 📱 **Mobile-First Development** - Responsive design ensuring optimal experiences across all devices
+- ⚡ **Performance Optimized** - Fast loading times and smooth interactions for enhanced user engagement
+- 🌟 **Continuous Evolution** - Regular updates showcasing new projects and technical growth
 
-- **React** - Component-based UI library
-- **Vite** - Fast build tool and development server
-- **Tailwind CSS v4** - Utility-first CSS framework with modern features
-- **Custom Design System** - Comprehensive preset classes for consistent styling
+## 🛠️ Built With Modern Technologies
 
-## 🎨 Design System
+- **React** - Component-based UI library for building interactive interfaces
+- **Vite** - Next-generation frontend tooling for optimal development experience
+- **Tailwind CSS v4** - Utility-first CSS framework for maintainable styling
+- **EmailJS** - Client-side email service for seamless contact form functionality
+- **Vercel** - Cloud platform for deployment with SSL certificate at [jeremygarin.works](https://jeremygarin.works)
 
-The portfolio uses a complete design system with:
+## 🎯 Portfolio Highlights
 
-- **Color Palette**: Primary, secondary, accent, and gray scales
-- **Typography**: Heading presets (.heading-1, .heading-2, .heading-3)
-- **Buttons**: Primary, secondary, and outline button styles
-- **Cards**: Light and dark card variants with shadows
-- **Animations**: Fade-in, slide-up, and hover effects
-- **Layout**: Container, section, and grid utilities
+### **Academic Progress** 📚
+Current coursework and academic projects from Laguna State Polytechnic University:
+- Advanced Presentation and Reasoning
+- Basic Machine Learning
+- *Additional subjects updated each semester*
 
-## 🚀 Getting Started
+### **Featured Projects** 💡
+- **HAUL** - Flutter-based thrift marketplace application with real-time features
+- **Portfolio Website** - This responsive React application showcasing my development skills
+- *Project portfolio continuously expanded with new developments*
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start development server: `npm run dev`
-4. Open http://localhost:5173 in your browser
+### **Technical Expertise** 🔧
+Comprehensive skill set spanning mobile development with Flutter and modern web development with React ecosystem.
 
-## 📝 Customization
+### **Professional Contact** 📬
+Fully functional contact form integration - professional inquiries welcome and promptly addressed.
 
-1. Update personal information in the component files
-2. Replace placeholder content with your own projects and skills
-3. Customize colors and styling in `src/index.css`
-4. Add your own images and assets to the `public` folder
+## 🚀 Local Development Setup
 
-## 📱 Sections
+To explore the codebase and run the project locally:
 
-- **Header**: Navigation with smooth scrolling
-- **Hero**: Introduction with call-to-action buttons
-- **About**: Personal information and statistics
-- **Projects**: Featured work with technology tags
-- **Skills**: Technical skills with progress indicators
-- **Contact**: Contact form and social links
-- **Footer**: Additional navigation and contact information
+```bash
+# Clone the repository
+git clone https://github.com/emperuna/my-portfolio.git
 
-Built with ❤️ using modern web technologies.+ Vite
+# Navigate to project directory
+cd my-portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Install dependencies
+npm install
 
-Currently, two official plugins are available:
+# Start development server
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Access application at http://localhost:5173
+```
 
-## Expanding the ESLint configuration
+## 🎨 Development Philosophy
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+My approach to development emphasizes:
+- **Clean Architecture** - Maintainable code structure with clear separation of concerns
+- **User-Centered Design** - Intuitive interfaces prioritizing user experience
+- **Accessibility Standards** - Inclusive design ensuring broad accessibility
+- **Responsive Implementation** - Seamless adaptation across all screen sizes and devices
+
+## 📈 Current Development Focus
+
+Ongoing professional development and learning initiatives:
+- 🎓 Advanced Computer Science coursework at LSPU
+- 📱 Flutter mobile application development
+- 🌐 Modern web development technologies and frameworks
+- 🎬 Integration of multimedia design skills with technical development
+
+## 🤝 Professional Connections
+
+Open to professional opportunities, technical collaborations, and industry discussions:
+
+- 🌐 **Portfolio**: [jeremygarin.works](https://jeremygarin.works)
+- 💼 **GitHub**: [@emperuna](https://github.com/emperuna)
+- 📧 **Contact**: Professional inquiries through portfolio contact form
+- 📱 **Opportunities**: Actively seeking internship positions and collaborative projects
+
+## 💭 Developer's Note
+
+This portfolio serves as both a professional showcase and a testament to my development journey. Each component represents a commitment to quality code, thoughtful design decisions, and continuous technical improvement.
+
+Key technical achievements include sophisticated animation implementations, clean architectural patterns, and seamless integration of multiple technologies to create a cohesive user experience.
+
+The codebase is available for review and serves as an example of my coding standards and development practices. Questions about implementation details or technical discussions are always welcome.
+
+---
+
+*Developed by Jeremy Garin*  
+*Last updated: August 2025*
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
