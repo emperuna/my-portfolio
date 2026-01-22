@@ -7,7 +7,7 @@ const Activities = () => {
       title: "Advanced Presentation and Reasoning",
       description: "Course repository for CSST 101 (IS 101). Contains coursework, exercises, and projects focusing on structured presentation skills, critical reasoning, and academic communication.",
       technologies: ["Presentation Design", "Critical Thinking", "Academic Communication"],
-      status: "In Progress",
+      status: "Completed",
       semester: "2025",
       github: "https://emperuna.github.io/CSST101-3A-AY2526/"
     },
@@ -16,7 +16,7 @@ const Activities = () => {
       title: "Basic Machine Learning",
       description: "Course repository for CSST 102 (IS 102). Includes coursework, exercises, and projects introducing fundamental concepts of machine learning, data preprocessing, model building, and evaluation.",
       technologies: ["Python", "Machine Learning", "Data Preprocessing", "Model Evaluation"],
-      status: "In Progress",
+      status: "Completed",
       semester: "2025",
       github: "https://emperuna.github.io/CSST102-3A-AY2526/"
     }
@@ -87,7 +87,7 @@ const Activities = () => {
 
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-reseda-green-400 rounded-full animate-pulse"></div>
+                    <div className="w-2 h-2 bg-reseda-green-400 rounded-full"></div>
                     <span className="text-sm font-medium text-anti-flash-400 font-mono">
                       {course.status}
                     </span>
