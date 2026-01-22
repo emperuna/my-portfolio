@@ -1,47 +1,44 @@
-# Jeremy Garin's Portfolio 🚀
+# Jeremy Garin's Portfolio
 
-Welcome to my personal portfolio website! I'm Jeremy, a Computer Science student at Laguna State Polytechnic University with a passion for creating beautiful, functional applications that solve real-world problems.
+![Status](https://img.shields.io/badge/Status-Archived-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.x-06B6D4?logo=tailwindcss&logoColor=white)
 
-## 👨‍💻 About This Project
+> **Note:** This is an archived version of my portfolio. The project is no longer actively maintained and may contain outdated information or dependencies.
 
-This portfolio represents my journey as a developer and showcases the projects I'm most proud of. Built with modern technologies, it reflects my commitment to clean code, thoughtful design, and continuous learning.
+A personal portfolio website built during my time as a Computer Science student at Laguna State Polytechnic University.
 
-**What makes this special:**
-- 🎨 **Design Excellence** - Every design decision reflects my attention to detail and user experience principles
-- 📱 **Mobile-First Development** - Responsive design ensuring optimal experiences across all devices
-- ⚡ **Performance Optimized** - Fast loading times and smooth interactions for enhanced user engagement
-- 🌟 **Continuous Evolution** - Regular updates showcasing new projects and technical growth
+## About This Project
 
-## 🛠️ Built With Modern Technologies
+This portfolio was developed to showcase my projects and technical skills. Built with modern web technologies, it demonstrates my approach to clean code, thoughtful design, and frontend development practices.
 
-- **React** - Component-based UI library for building interactive interfaces
-- **Vite** - Next-generation frontend tooling for optimal development experience
-- **Tailwind CSS v4** - Utility-first CSS framework for maintainable styling
-- **EmailJS** - Client-side email service for seamless contact form functionality
-- **Vercel** - Cloud platform for deployment with SSL certificate at [jeremygarin.works](https://jeremygarin.works)
+**Key Features:**
+- Responsive design optimized for all devices
+- Performance-focused implementation
+- Clean component architecture
+- Integrated contact form functionality
 
-## 🎯 Portfolio Highlights
+## Technology Stack
 
-### **Academic Progress** 📚
-Current coursework and academic projects from Laguna State Polytechnic University:
+- **React** - Component-based UI library
+- **Vite** - Frontend build tool
+- **Tailwind CSS v4** - Utility-first CSS framework
+- **EmailJS** - Client-side email integration
+- **Vercel** - Deployment platform
+
+## Portfolio Contents
+
+### Academic Work
+Coursework and academic projects from Laguna State Polytechnic University:
 - Advanced Presentation and Reasoning
 - Basic Machine Learning
-- *Additional subjects updated each semester*
 
-### **Featured Projects** 💡
-- **HAUL** - Flutter-based thrift marketplace application with real-time features
-- **Portfolio Website** - This responsive React application showcasing my development skills
-- *Project portfolio continuously expanded with new developments*
+### Technical Skills
+Mobile development with Flutter and web development with the React ecosystem.
 
-### **Technical Expertise** 🔧
-Comprehensive skill set spanning mobile development with Flutter and modern web development with React ecosystem.
-
-### **Professional Contact** 📬
-Fully functional contact form integration - professional inquiries welcome and promptly addressed.
-
-## 🚀 Local Development Setup
-
-To explore the codebase and run the project locally:
+## Local Development
 
 ```bash
 # Clone the repository
@@ -56,47 +53,24 @@ npm install
 # Start development server
 npm run dev
 
-# Access application at http://localhost:5173
+# Access at http://localhost:5173
 ```
 
-## 🎨 Development Philosophy
+## Development Approach
 
-My approach to development emphasizes:
-- **Clean Architecture** - Maintainable code structure with clear separation of concerns
-- **User-Centered Design** - Intuitive interfaces prioritizing user experience
-- **Accessibility Standards** - Inclusive design ensuring broad accessibility
-- **Responsive Implementation** - Seamless adaptation across all screen sizes and devices
+- Clean architecture with clear separation of concerns
+- User-centered design principles
+- Accessibility compliance
+- Responsive implementation across devices
 
-## 📈 Current Development Focus
+## Contact
 
-Ongoing professional development and learning initiatives:
-- 🎓 Advanced Computer Science coursework at LSPU
-- 📱 Flutter mobile application development
-- 🌐 Modern web development technologies and frameworks
-- 🎬 Integration of multimedia design skills with technical development
-
-## 🤝 Professional Connections
-
-Open to professional opportunities, technical collaborations, and industry discussions:
-
-- 🌐 **Portfolio**: [jeremygarin.works](https://jeremygarin.works)
-- 💼 **GitHub**: [@emperuna](https://github.com/emperuna)
-- 📧 **Contact**: Professional inquiries through portfolio contact form
-- 📱 **Opportunities**: Actively seeking internship positions and collaborative projects
-
-## 💭 Developer's Note
-
-This portfolio serves as both a professional showcase and a testament to my development journey. Each component represents a commitment to quality code, thoughtful design decisions, and continuous technical improvement.
-
-Key technical achievements include sophisticated animation implementations, clean architectural patterns, and seamless integration of multiple technologies to create a cohesive user experience.
-
-The codebase is available for review and serves as an example of my coding standards and development practices. Questions about implementation details or technical discussions are always welcome.
+- **GitHub**: [@emperuna](https://github.com/emperuna)
 
 ---
 
-*Developed by Jeremy Garin*  
-*Last updated: August 2025*
+*Developed by Jeremy Garin*
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).

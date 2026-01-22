@@ -9,7 +9,7 @@ const Activities = () => {
       technologies: ["Presentation Design", "Critical Thinking", "Academic Communication"],
       status: "In Progress",
       semester: "2025",
-      github: "https://emperuna.github.io/CSST-101/"
+      github: "https://emperuna.github.io/CSST101-3A-AY2526/"
     },
     {
       code: "CSST 102",
@@ -18,7 +18,7 @@ const Activities = () => {
       technologies: ["Python", "Machine Learning", "Data Preprocessing", "Model Evaluation"],
       status: "In Progress",
       semester: "2025",
-      github: "https://emperuna.github.io/CSST-102/"
+      github: "https://emperuna.github.io/CSST102-3A-AY2526/"
     }
   ]
 
